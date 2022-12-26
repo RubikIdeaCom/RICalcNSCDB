@@ -26,6 +26,10 @@ final class RICalcNSCDB {
 		
 	}
 
+	final public function emptyFunc() {
+
+	}
+
 	final public function CLR() {
 		$this->result = $this->lastNum = $this->firstNum = 0;
 		unset($_POST);
