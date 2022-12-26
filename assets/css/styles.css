@@ -1,0 +1,48 @@
+body{
+    background: #66FF66;
+}
+.calculator{
+    margin-top: 10%;
+    text-align: center;
+    border: 5px navy outset;
+    background: silver;			
+}
+.operator, .num, .clr{
+    width: 38px;
+    height: 30px;			
+}
+.operator:hover, .num:hover, .clr:hover{
+    color: white;
+    background: gray;
+    border: 3px black double;			
+}
+.operator, .clr{
+    color: blue;
+}
+.clr{
+    width: 75px;
+}
+.num{
+    color: red;
+}
+.result{
+    border: navy 3px double;
+    vertical-align: middle;
+    width: 220px;
+    color: white;
+    background: navy;
+    text-align: right;			
+}
+.cr{
+    color: green;
+    font-weight: bolder;
+    font-family: monospace, serif, sans-serif, fantasy, cursive;
+    font-size: 20pt;
+    background: yellow;
+    margin-top: 5%;			
+}
+.cr td{
+    height: 50px;
+    padding: 20px;
+    border: lime double 5px;			
+}
